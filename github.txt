@@ -1,0 +1,7 @@
+First e amra local machine and github e same name folder and repo create korbo respectively.
+
+Then amra git initailize korbo ei command diye :
+    command : git init
+
+Then amra staging korbo.. tar mane shokol file e add korbo.
+    Command : git add .
