@@ -5,3 +5,28 @@ Then amra git initailize korbo ei command diye :
 
 Then amra staging korbo.. tar mane shokol file e add korbo.
     Command : git add .
+
+Tarpor amra commit korbo and ekta message dibo
+    command : git commit -m "first commit"
+
+Then amra branch Thik kore dibo.
+    command : git branch -M main
+
+Then amra kon thikanay pathabo ta ei thikanay dibo.
+    command : git remote add origin <location>
+
+then amra code push kore dibo.
+    command : git push -u origin main
+
+Egula hoitese first time add korar upay.
+
+Ekhon mone koro ami vule ei repo ta delete kore dilam. ami ei code takei jodi amar git e push korte chai tahole [ git remote add origin <location> ] ei command ta korar shomoy error dibe.. amake ei location ta amar machine e reset kore dite hobe.
+
+    command: git remote set-url origin <location>
+
+
+Ekhon code korte korte to abar ami changes korbo ebong abar push korte hole amake 3 ta command dite hobe..
+
+    no1: git add .
+    no2 : git commit -m "message"
+    no3: git push
